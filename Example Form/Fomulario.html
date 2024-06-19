@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/styles.css">
+    <title>Formulario Login</title>
+</head>
+<body>
+    <section class="Formulario">
+        <h1>Formulario de Inscripción</h1>
+
+        <table  class="tabla">
+            <tr>
+                <td>
+                    <label for="Ciudad">Ciudad</label>
+                    <select name="Ingrese Su Ciudad" id="Ciudad">
+                    <option value="1">Santiago</option>
+                    <option value="2">Concepción</option>
+                    <option value="3">Viña Del mar</option>
+            
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Género">Género</label>
+                    <input type="radio" name="genero" value="M" id="Masculino" placeholder="Escoja">
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" name="genero" value="F" id="Femenino">
+                    <label for="Femenido">Femenino</label>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <label for="Fono">Fono</label>
+                    <input type="number" name="fono" id="Fono" placeholder="Ingrese su Número">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Fecha">Fecha</label>
+                    <input type="date" name="Fecha" id="Fecha" placeholder="Fecha">
+                </td>
+            </tr>
+
+        </table>
+        <br>
+        <br>
+
+        <h2>Formulario Login</h2> 
+        <input class="control" type="text" name="Usuario" value="" id="Usuario" placeholder="Ingrese Usuario">
+        <input class="control" type="password" name="Contraseña" value="" id="Contraseña" placeholder="Ingrese Contraseña">
+        <input class="button" type="submit" name="" value="Ingresar">
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>    
+    </section>
+    
+</body>
+</html>
